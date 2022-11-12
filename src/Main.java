@@ -51,11 +51,23 @@ public class Main {
         int bottlesPerMinute = bottlesProdactivity / time;
         System.out.println(bottlesPerMinute);
         int bottlesPer20Minutes = bottlesPerMinute * 20;
+        System.out.println("За 20 минут машина произвела бутылок " + bottlesPer20Minutes + " штук ");
         int bottlesPerDay = bottlesPerMinute * 60 * 24;
+        System.out.println("За 1 день машина произвела бутылок " + bottlesPerDay + " штук ");
         int bottlesPer3Days = bottlesPerMinute * 60 * 24 *3;
-        System.out.println(bottlesPer3Days);
+        System.out.println("За 3 дня машина произвела бутылок " + bottlesPer3Days + " штук ");
         int bottlesPerMonth = bottlesPerMinute * 60 * 24 * 30;
-        System.out.println(bottlesPerMonth);
+        System.out.println("За 1 месяц машина произвела бутылок " + bottlesPerMonth + " штук ");
+
+        // Задание 5
+        System.out.println("Задание 5");
+        int bucketsOfPaintTotal = 120;
+        int bucketsOfWhitePaintPerClass = 2;
+        int bucketsOfBrownPaintPerClass = 4;
+        int numberOfClasses = bucketsOfPaintTotal / (bucketsOfWhitePaintPerClass + bucketsOfBrownPaintPerClass);
+        int bucketsOfWhitePaintTotal = numberOfClasses * bucketsOfWhitePaintPerClass;
+        int bucketsOfBrownPaintTatal = numberOfClasses * bucketsOfBrownPaintPerClass;
+        System.out.println("В школе, где " + numberOfClasses + " классов, нужно " + bucketsOfWhitePaintTotal + " банок белой краски и " + bucketsOfBrownPaintTatal + " банок коричневой краски");
 
     }
 }
