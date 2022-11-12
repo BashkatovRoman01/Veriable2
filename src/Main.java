@@ -69,5 +69,21 @@ public class Main {
         int bucketsOfBrownPaintTatal = numberOfClasses * bucketsOfBrownPaintPerClass;
         System.out.println("В школе, где " + numberOfClasses + " классов, нужно " + bucketsOfWhitePaintTotal + " банок белой краски и " + bucketsOfBrownPaintTatal + " банок коричневой краски");
 
+        // Задание 6
+        System.out.println("Задание 6");
+        int bananaWeight = 80;
+        int bananaWeightTotal = bananaWeight * 5;
+        int milKWeigt = 105;
+        int milKWeigtTotal = milKWeigt * 2;
+        int icecreamWeight = 100;
+        int icecreamWeightTotal = icecreamWeight * 2;
+        int eggWeight = 70;
+        int eggWeightTotal = eggWeight * 4;
+        float totalWeightInGramms = bananaWeightTotal + milKWeigtTotal + icecreamWeightTotal + eggWeightTotal;
+        System.out.println(totalWeightInGramms);
+        float totalWeightInKilogramms = totalWeightInGramms / 1000;
+        System.out.println(totalWeightInKilogramms);
+
+
     }
 }
