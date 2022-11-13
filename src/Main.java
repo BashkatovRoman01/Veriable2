@@ -84,6 +84,22 @@ public class Main {
         float totalWeightInKilogramms = totalWeightInGramms / 1000;
         System.out.println(totalWeightInKilogramms);
 
+        // Задание 7
+        System.out.println("Задание 7");
+        int weigtToLooseTotal = 7000;
+        int weigtToLoose250G = 250;
+        int weigtToLoose500G = 500;
+        int daysToLooseWeigt250G = weigtToLooseTotal / weigtToLoose250G;
+        System.out.println(daysToLooseWeigt250G);
+        int daysToLooseWeigt500G = weigtToLooseTotal / weigtToLoose500G;
+        System.out.println(daysToLooseWeigt500G);
+        int averageTimeToLooseWeigt = (daysToLooseWeigt250G + daysToLooseWeigt500G) / 2;
+        System.out.println(averageTimeToLooseWeigt);
+
+
+
+
+
 
     }
 }
