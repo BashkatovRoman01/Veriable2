@@ -96,6 +96,22 @@ public class Main {
         int averageTimeToLooseWeigt = (daysToLooseWeigt250G + daysToLooseWeigt500G) / 2;
         System.out.println(averageTimeToLooseWeigt);
 
+        // Задание 8
+        System.out.println("Задание 8");
+        int salaryMasha = 67760;
+        int salaryDenis = 83690;
+        int salaryKristina = 76230;
+        float salaryMashaIncreased = salaryMasha * 1.1F;
+        float salaryDenisIncreased = salaryDenis * 1.1F;
+        float salaryKristinaIncreased = salaryKristina * 1.1F;
+        float salaryMashaRemainder = salaryMashaIncreased - salaryMasha;
+        float salaryDenisRemainder = salaryDenisIncreased - salaryDenis;
+        float salaryKristinaRemainder = salaryKristinaIncreased - salaryKristina;
+        System.out.println("Маша теперь получает " + salaryMashaIncreased +" рублей. Годовой доход вырос на " + salaryMashaRemainder + " рублей.");
+        System.out.println("Денис теперь получает " + salaryDenisIncreased +" рублей. Годовой доход вырос на " + salaryDenisRemainder + " рублей.");
+        System.out.println("Кристина теперь получает " + salaryKristinaIncreased +" рублей. Годовой доход вырос на " + salaryKristinaRemainder + " рублей.");
+
+
 
 
 
